@@ -12,7 +12,7 @@ while count < src.length do
       low_value = src[count][inner_count]
 
     end
-    
+
     inner_count +=1
   end
   result << low_value
