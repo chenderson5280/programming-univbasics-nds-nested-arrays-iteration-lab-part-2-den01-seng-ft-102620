@@ -6,7 +6,7 @@ result = []
 
 while count < src.length do
   inner_count = 0
-  low_value = 30
+  low_value = 25
   while inner_count < src[count].length do
     if src[count][inner_count] < low_value
       low_value = src[count][inner_count]
