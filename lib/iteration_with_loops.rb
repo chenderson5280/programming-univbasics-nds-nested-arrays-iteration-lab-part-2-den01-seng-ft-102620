@@ -8,13 +8,12 @@ while count < src.length do
   inner_count = 0
   while inner_count < src[count].length do
     if src[count][inner_count] < low_value
-        result << src[count][inner_count]
-      #low_value = src[count][inner_count]
-      #result.push(low_value)
+      low_value = src[count][inner_count]
+      result << low_value
     end
     inner_count +=1
   end
   count +=1
 end
-result.uniq
+result
 end
