@@ -19,5 +19,5 @@ while count < src.length do
   count +=1
 
 end
-result.uniq
+result
 end
