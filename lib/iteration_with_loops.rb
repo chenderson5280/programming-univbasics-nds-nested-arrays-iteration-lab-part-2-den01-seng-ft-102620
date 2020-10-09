@@ -10,8 +10,9 @@ while count < src.length do
   while inner_count < src[count].length do
     if src[count][inner_count] < low_value
       low_value = src[count][inner_count]
-      result << low_value
+
     end
+    result << low_value
     inner_count +=1
   end
   count +=1
